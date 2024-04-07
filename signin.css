@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  .login-header {
+    color: #44745C;
+    margin-bottom: 16px; 
+    font-size: 16px; 
+    text-align: center; 
+  }
+  
+  .user-login {
+    color: #44745C;
+  }
+  
+  .brand-owner-login {
+    color: black;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .button:hover {
+    background-color: #44745C;; /* Slightly darker shade for hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+  
+  /* Optional: for full-width container with max-width for larger screens */
+  .container {
+    max-width: 960px; /* Or your preferred max width */
+    margin: auto; /* Center the container */
+    width: 100%; /* Full width */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around; /* This will distribute space evenly */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: #44745C;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Add margin to the buttons */
+    margin: 0 10px; 
+  }
+  
+ 
+  
+
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #44745C;
+    color: black;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #44745C;
+  }
+  .sign-up-container {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .sign-up-btn {
+    text-decoration: none;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .sign-up-btn:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#searchArea {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.searchBox span {
+    font-size: 1.2em;
+}
+
+#featuredBrands {
+    text-align: center;
+}
+
+#carouselPlaceholder {
+    margin-top: 20px;
+}
+
+#carouselPlaceholder img {
+    max-width: 100%;
+    height: auto;
+}

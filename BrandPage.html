@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FashMap Brands Page</title>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+ 
+  .filter-dropdown {
+    background: #fff;
+    border: 1px solid #dddfe2;
+    color: #000;
+    border-radius: 0.25rem;
+  }
+
+  .brand-card {
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 0.5rem;
+  }
+
+  .brand-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  .page-btn-active {
+    background-color: #44745C;
+    color: #fff;
+  }
+
+  .page-btn {
+    background-color: #fff;
+    color: #44745C;
+    border: 1px solid #44745C;
+  }
+
+  .page-btn:hover {
+    background-color: #365C4A;
+  }
+</style>
+</head>
+<body class="bg-gray-100 font-sans">
+<div class="container mx-auto px-4 py-6">
+  
+<header class="flex justify-between items-center py-4">
+<img src="FashMP Logo.png" alt="FashMap Logo" class="h-12">
+<nav class="space-x-4">
+<a href="#" class="text-gray-700"></a>
+<a href="BrandPage.html">Businesses</a>
+<a href="#" class="text-gray-700"></a>
+<a href="Technology.html">Technology</a> 
+<a href="#" class="text-gray-700">Insights</a>
+<a href="#" class="text-gray-700"></a>
+<a href="About.html">About</a>
+</nav>
+<div>
+<button class="bg-[#44745C] text-white py-2 px-4 rounded">
+<nav>
+<a href="SignIN page.html"> Log in </a> &nbsp; </nav>
+</button>
+<button class="text-[#44745C] py-2 px-4 rounded">Sign up</button>
+</div>
+</header>
+
+<div class="flex flex-wrap -mx-2">
+<div class="w-full md:w-1/3 lg:w-1/4 px-2 mb-4">
+<div class="bg-white p-4 rounded-lg shadow-md">
+<input type="search" placeholder="Location, e.g Towson Univeristy" class="w-full p-3 rounded mb-4 border">
+<div class="mb-4">
+<h2 class="text-lg font-bold mb-4">Filters</h2>
+<div class="mb-4">
+<label for="category" class="block text-sm font-medium text-gray-700">Category</label>
+<select id="category" name="category" class="filter-dropdown w-full pl-3 pr-10 py-2 text-base focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+<option>All</option>
+<option>Clothing</option>
+<option>Nails</option>
+<option>Wigs</option>
+<option>Makeup</option>
+<option>Lashes</option>
+<option>Barbers</option>
+               
+</select>
+</div>
+
+<div class="mb-4">
+<label for="features" class="block text-sm font-medium text-gray-700">Features</label>
+<select id="features" name="features" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+<option>Payment Methods</option>
+<option>Accepts Apple Pay</option>
+<option>Google Pay</option>
+<option>Credit Cards</option>
+</select>
+ </div>
+            
+<div class="mb-4">
+<label for="price-range" class="block text-sm font-medium text-gray-700">Average Price Range</label>
+<select id="price-range" name="price-range" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+<option>$25 - $50</option>
+<option>$50 - $90</option>
+<option>$100 - $150</option>
+<option>$150 - $200</option>
+<option>$200 - $500</option>
+</select>
+</div>
+            
+<div class="mb-4">
+<label for="suggestions" class="block text-sm font-medium text-gray-700">Suggestions</label>
+<select id="suggestions" name="suggestions" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+<option>Ongoing Discount</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+      
+<div class="flex justify-center mt-0 -mx-2">
+<div class="w-full max-w-lg space-y-4">
+<div class="bg-white p-4 rounded-lg shadow-lg">
+<img src="Infinity.jpg" alt="Infinity Worldwide" class="rounded-lg mb-4">
+<h5 class="text-lg font-bold mb-2">Infinity Worldwide</h5>
+<p class="mb-4">Short description...</p>
+<a href="#" class="inline-block bg-[#44745C] text-white py-2 px-4 rounded hover:bg-[#365C4A] transition duration-300">Go to Website</a>
+</div>
+          
+<div class ="flex justify-center mt-0 -mx-2">
+<div class="w-full max-w-lg space-y-4">
+<div class="bg-white p-4 rounded-lg shadow-lg">
+<img src="BaeNailed.jpg" alt="Bea Nailed It" class="rounded-lg mb-4">
+<h5 class="text-lg font-bold mb-2">Bea_NailedIt</h5>
+<p class="mb-4">Short description...</p>
+<a href="#" class="inline-block bg-[#44745C] text-white py-2 px-4 rounded hover:bg-[#365C4A] transition duration-300">Go to Website</a>
+</div>
+          
+<div class ="flex justify-center mt-0 -mx-2">
+<div class="w-full max-w-lg space-y-4">
+<div class="bg-white p-4 rounded-lg shadow-lg">
+<img src="WigAddict.jpg" alt="The Wig Addict" class="rounded-lg mb-4">
+<h5 class="text-lg font-bold mb-2">The Wig Addict</h5>
+<p class="mb-4">Short description...</p>
+<a href="#" class="inline-block bg-[#44745C] text-white py-2 px-4 rounded hover:bg-[#365C4A] transition duration-300">Go to Website</a>
+</div>
+</div>
+</div>
+      
+<div class="flex justify-center mt-6">
+<div class="flex space-x-1">
+<a href="#" class="px-3 py-2 rounded text-gray-700 bg-white border border-gray-300 hover:bg-gray-100 transition duration-300"><i class="fas fa-chevron-left"></i></a>
+<a href="#" class="page-btn-active px-3 py-2 rounded">1</a>
+<a href="#" class="page-btn px-3 py-2 rounded hover:bg-green-700 transition duration-300">2</a>
+<a href="#" class="page-btn px-3 py-2 rounded hover:bg-green-700 transition duration-300">3</a>
+<a href="#" class="page-btn px-3 py-2 rounded hover:bg-green-700 transition duration-300">4</a>
+<a href="#" class="page-btn px-3 py-2 rounded hover:bg-green-700 transition duration-300">5</a>
+<a href="#" class="px-3 py-2 rounded text-gray-700 bg-white border border-gray-300 hover:bg-gray-100 transition duration-300"><i class="fas fa-chevron-right"></i></a>
+<a href="#" class="page-btn px-4 py-2 rounded hover:bg-green-700 transition duration-300">Next Page</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

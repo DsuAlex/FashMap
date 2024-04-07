@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FashMap - Discover Local Fashion Brands</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .header-image {
+    height: 600px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+</head>
+<body>
+<div class="container mx-auto px-4">
+  <nav class="flex justify-between items-center py-4">
+    <img src="YOUR_LOGO_IMAGE_URL" alt="FashMap logo" class="logo">
+    <div class="hidden md:flex space-x-8">
+      <a href="#" class="text-gray-600">Brands</a>
+      <a href="#" class="text-gray-600">Technology</a>
+      <a href="#" class="text-gray-600">Insights</a>
+      <a href="#" class="text-gray-600">About</a>
+    </div>
+    <div>
+      <button class="bg-green-600 text-white py-2 px-4 rounded">Log in</button>
+      <button class="bg-white text-gray-600 py-2 px-4 rounded border border-gray-400 ml-2">Sign up</button>
+    </div>
+  </nav>
+
+  <header class="text-center my-8">
+    <h1 class="text-4xl font-bold">Discover Local Fashion<br>Brands with a Twist</h1>
+    <button class="bg-black text-white py-2 px-4 mt-4 rounded">Explore Now</button>
+  </header>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    <div class="p-4 border rounded">
+      <i class="fas fa-map-marker-alt"></i>
+      <h2 class="font-semibold">Select Location</h2>
+      <p>Choose your location</p>
+    </div>
+    <div class="p-4 border rounded">
+      <i class="fas fa-search"></i>
+      <h2 class="font-semibold">Find Brands</h2>
+      <p>Find local Brands</p>
+    </div>
+  </div>
+
+  <div class="header-image" style="background-image: url('YOUR_FEATURE_IMAGE_URL');">
+    <div class="p-4">
+      <h3 class="font-semibold">LOST PIECES</h3>
+      <p>2023</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
